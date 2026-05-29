@@ -53,4 +53,5 @@ elif budge >30000 and age >60 and weather == "hot":
 Y=int(input("how many days you want to go ?"))
 print("your total cost will be of per day "+str(budge/Y))
 print("have a nice trip")
+print("you may leave for the trip soon ")
 
