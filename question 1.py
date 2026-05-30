@@ -1,3 +1,4 @@
+#INPUT
 print('what is your name?')
 name = input()
 print('what is your age?')
@@ -6,6 +7,7 @@ print('what city do you live in?')
 city = input()
 print('what is your favourite number?')
 number = input()
+#OUTPUT
 print("------YOUR PROFILE------")
 print('Name: ' + name)
 print('name in UPPERCASE = ' + name.upper())
@@ -13,7 +15,7 @@ print('name in lowercase = ' + name.lower())
 print('name in Titlecase = ' + name.title())
 print('Number of charater in your name = ' + str(len(name)))
 
-
+#RANDOM FUNCTIONS
 print('city: ' + city)
 print('does your city name has "a" in it? ' + str('a' in city))
 print('postion of a in your city : ' +(str(city.find('a'))))
