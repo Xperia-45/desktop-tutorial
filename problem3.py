@@ -16,6 +16,7 @@ while max_number_guess > guess_count:
         print("your guess is too high")
         if guess_count == max_number_guess:
             print("sorry you have used all your chances the number was " + str(number))
+            print("-----------------GAME ENDS HERE -------------------")
           print("game ends here you may restart if you wish ")
             
 
