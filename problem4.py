@@ -8,7 +8,7 @@ while True:
         print("car has stopped")
     elif command == "quit":
         print("quiting the game")
-        break
+        break #to remove the loop form rerunning
     else:
         print("invalid command")
         print("you can restart the game as you  wish")
