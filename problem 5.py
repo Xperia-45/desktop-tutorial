@@ -19,8 +19,10 @@ else:
     int(bill)<2000
     print("you get no discount")
     discount=0
+    #calculaations
 discount_amount=int(bill)*int(discount)/100
 amount_to_pay=int(bill)-discount_amount
+#output statements
 print("discount amount" + str(discount_amount))
 print("total amount to pay" + str(amount_to_pay))
 
