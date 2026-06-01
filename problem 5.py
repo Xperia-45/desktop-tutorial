@@ -1,7 +1,8 @@
-
+#shopping discount 
 bill=input("enterr the bill amount")
 member=input("arre you member of the store (yes/no)?")
 discount=""
+#statements
 if member=="yes" and int(bill)>5000:
     print("you get 20% discount")
     discount=20
