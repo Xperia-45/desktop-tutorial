@@ -1,6 +1,8 @@
+#assigne varible
 budge=int(input("enter your budget"))
 age=int(input("enter your age"))
 weather=str(input("preffered weather"))
+#statements
 if budge < 10000 and age < 18 and weather == "cold":
     print("you can go to shimla")
     print("travel with guardian is advised")
@@ -49,6 +51,7 @@ elif budge >=10000 and budge < 30000 and age >60 and weather == "hot":
 elif budge >30000 and age >60 and weather == "hot":
     print ("you can go to andaman")
     print("you may get discount")
+    #output statements
 
 Y=int(input("how many days you want to go ?"))
 print("your total cost will be of per day "+str(budge/Y))
