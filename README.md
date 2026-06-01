@@ -3,3 +3,5 @@ problem 1 = basic upper case lowercase operations or personal memo
 problem 2 = it has a trip planner 
 problem 3 = number guess game
 problem 4 = car game 
+problem 5 = discount price
+password = simple login
