@@ -1,8 +1,11 @@
+#variables
 max_number_guess = 3
 guess_count = 0
 number= 7
+#output
 print("welcome to the single digit number guessing game ")
 print("you have max three chances to guess the number")
+#while clause
 while max_number_guess > guess_count:
     print("guess the number")
     guess = int(input())
