@@ -1,5 +1,5 @@
 #car game
-while True:
+while True:# if ture this block will execute 
     commmand = input("enter a command (start/stop/quit): ")
     if commmand == "start":
      print('car has started')
