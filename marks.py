@@ -27,3 +27,5 @@ print("total marks obtained : {}".format(total))
 print("average marks obtained : {}".format(avg))    
 print("grade obtained : {}".format(grade))
 print("================================")
+print("avarage of student {} from 
+#statemments left avrage comparing students for all code 
