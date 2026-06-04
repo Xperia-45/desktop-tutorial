@@ -1,11 +1,11 @@
-students=[1,2]
-for student in students:
+students=[1,2]#lists
+for student in students:#input
   m=int(input("enter marks obtained in maths: "))
   s=int(input("enter marks obtained in science: "))
   e=int(input("enter marks obtsined in english: "))
-  total=int(m)+int(s)+int(e)
-  avg=total/3
-  if avg>=90:
+  total=int(m)+int(s)+int(e)#finding total
+  avg=total/3#avg
+  if avg>=90:#for grading
     grade="A"
   elif avg<=89 and avg>=75:
     grade="B"
@@ -15,7 +15,7 @@ for student in students:
     grade="D"
   else:
     grade="F"
-    print("=======EXAMINATION RESULT========")
+    print("=======EXAMINATION RESULT========")#output starts
     print("STUDENT NUMBER: ",student)
     print("marks obtained in maths: ",m)
     print("marks obtained in science: ",s)
@@ -24,7 +24,7 @@ for student in students:
     print("average marks obtained: ",avg)
     print("grade obtained: ",grade)
     print("=================================")
-averages=[]
+averages=[]#store avrages
 averages.append(avg)
 print(max(averages))
 print(min(averages))
