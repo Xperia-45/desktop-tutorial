@@ -5,3 +5,4 @@ problem 3 = number guess game
 problem 4 = car game 
 problem 5 = discount price
 password = simple login
+marks = normal grading using lists
