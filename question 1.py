@@ -25,6 +25,6 @@ print("your favourte number "+str(int(number)))
 print("is your favourte number greater then 10? " +str(int(number)>10))
 print("square of youre favourte number is "+str(int(number)*2))
 print("-------SUMMARY-------")
-n=len(name)
+n=len(name)#length of name
 print('number of charaters your name has ='   +str(n ))
 
