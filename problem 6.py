@@ -1,4 +1,4 @@
-
+#for input of information
 n=str(input("Enter the name of contacts you want to add: "))
 my_list1= []
 for i in range(n):
@@ -16,8 +16,7 @@ my_list3= []
 for i in range(n):
     item = input(f"enter the email {i+1}: ")
     my_list3.append(item)
-
-print("=====CONTACTS=====")
+print("=====CONTACTS=====")#for menu
 for i in range(n):
     print(f"Name: {my_list1[i]}")
     print(f"Phone Number: {my_list2[i]}")
@@ -36,7 +35,7 @@ for i in range(n):
     if not found:
         print("Contact not found.")
 
-while True:
+while True:#for repeating menu
 
     print("=====MENU=====")
     print("do you want to update the contact? (yes/no)")
@@ -56,7 +55,7 @@ while True:
         if not found:
             print("Contact not found.")
 
-print("do you want to delete the contact? (yes/no)")
+print("do you want to delete the contact? (yes/no)")#for deleting
 choice2  = input("enter your choice:")
 if choice2.lower()=="yes":
     delete_name = input("enter the name to delete: ")
