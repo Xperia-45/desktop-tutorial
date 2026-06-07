@@ -4,13 +4,13 @@ my_list1= []
 for i in range(n):
     item = input(f"Enter the name {i+1}: ")
     my_list1.append(item)
-
+#for taking input
 phone_number = int(input("enter the phone number: "))
 my_list2= []
 for i in range(n):
     item = input(f"enter the phone number {i+1}: ")
     my_list2.append(item)
-
+#for taking input email
 email = (input("enter the email: "))
 my_list3= []
 for i in range(n):
