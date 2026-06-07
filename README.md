@@ -4,5 +4,6 @@ problem 2 = it has a trip planner
 problem 3 = number guess game
 problem 4 = car game 
 problem 5 = discount price
+problem 6 = contact details 
 password = simple login
 marks = normal grading using lists
