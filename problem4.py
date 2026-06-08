@@ -9,7 +9,7 @@ while True:# if ture this block will execute
     elif command == "quit":
         print("quiting the game")
         break #to remove the loop form rerunning
-    else:
+    else:#if user enters invalid command
         print("invalid command")
         print("you can restart the game as you  wish")
         
