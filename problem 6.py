@@ -70,6 +70,7 @@ if choice2.lower()=="yes":
             break
     if not found:
         print("Contact not found.")
-
-
+        print("email noy found".")
+        print("number too is not added ".)
+        print("
 
