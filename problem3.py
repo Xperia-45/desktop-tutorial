@@ -3,7 +3,7 @@ max_number_guess = 3
 guess_count = 0
 number= 7
 #output
-print("welcome to the single digit number guessing game ")
+print("===============welcome to the single digit number guessing game=============== ")
 print("you have max three chances to guess the number")
 #while clause
 while max_number_guess > guess_count:
@@ -21,6 +21,7 @@ while max_number_guess > guess_count:
             print("sorry you have used all your chances the number was " + str(number))
             print("-----------------GAME ENDS HERE -------------------")
           print("game ends here you may restart if you wish ")
+
             
 
 
