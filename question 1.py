@@ -1,12 +1,11 @@
 #INPUT
-print('what is your name?')
-name = input()
-print('what is your age?')
-age = input()
-print('what city do you live in?')
-city = input()
-print('what is your favourite number?')
-number = input()
+name =input("what is your name")
+
+age =input("what is your age")
+
+city =input("which city do you live")
+
+number =input("what is your favourte number")
 #OUTPUT
 print("------YOUR PROFILE------")
 print('Name: ' + name)
