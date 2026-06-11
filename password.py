@@ -13,3 +13,4 @@ elif username != correct_username and password == correct_password:
 elif username != correct_username and password != correct_password:
     print("both credential are incorrect")
     #example of username syatem 
+this program can be done using lists too 
