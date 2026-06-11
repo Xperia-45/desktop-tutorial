@@ -25,5 +25,5 @@ amount_to_pay=int(bill)-discount_amount
 #output statements
 print("discount amount" + str(discount_amount))
 print("total amount to pay" + str(amount_to_pay))
-
+#it can be done using  lists too
     
