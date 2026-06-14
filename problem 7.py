@@ -21,3 +21,5 @@ for name, s1, s2, s3 in students:
         topper = name
 #for printing topper
 print(f"Topper: {topper}")
+print(avarage of the student :(avg))
+
