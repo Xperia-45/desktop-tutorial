@@ -5,5 +5,6 @@ problem 3 = number guess game
 problem 4 = car game 
 problem 5 = discount price
 problem 6 = contact details 
+problem 7 = to get avarage of students using lista and determine the topper
 password = simple login
 marks = normal grading using lists
