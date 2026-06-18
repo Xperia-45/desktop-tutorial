@@ -8,3 +8,4 @@ problem 6 = contact details
 problem 7 = to get avarage of students using lista and determine the topper
 password = simple login
 marks = normal grading using lists
+school tc = school tc format using dictionerys
