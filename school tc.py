@@ -1,10 +1,10 @@
-sch= input("enter school name  ")
+sch= input("enter school name  ")#input
 name=input("enter the name of student   ")
 father=input("enter the name of father  ")
 roll_number=input("enter the roll number   ")
 standerd=input("enter the class of student along with section    "   )
 conduct=input("enter the behaviour grade of student in the session A TO D   " )
-conduct=conduct.upper()
+conduct=conduct.upper()#convert to upper for comparing
 roll_mapping={
     "1":"one",
     "2":"two",
@@ -22,13 +22,13 @@ roll=""
 for ch in roll_number:
     roll+=roll_mapping.get(ch) + " "
 roll= roll.strip()
-print(f"----------------{sch}----------------")
+print(f"----------------{sch}----------------")#printing output
 print("       TRANSFER CERTIFICATE        ")
 print(" thanks for this heart full journey with us ")
 print(f"the student of class {standerd} has passed {standerd} ")
 print(f"The name of student {name}son of {father} with roll number    {roll}")
 if conduct=="A":
-    print("student has great performance through out the year")
+    print("student has great performance through out the year")#loop for conduct grade system
 elif conduct=="B":
     print("the students performance is good through out the year")
 elif conduct=="C":
