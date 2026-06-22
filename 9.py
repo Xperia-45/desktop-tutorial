@@ -1,13 +1,13 @@
 import random
-class Dice:
+class Dice:#dice
     def roll(self):
-        first = random.randint(1,6)
+        first = random.randint(1,6)                                           #all cases related to random import cmd
         return first
 
 dice = Dice()
 print(dice.roll())
 
-class Person:
+class Person:#str random
     n=int(input("how many people are there?"))
     people=[]
     for i in range(n):
@@ -16,7 +16,7 @@ class Person:
     result= random.choice(people)
     print("you got:", result)
 
-class number:
+class number: #list number 
     
     def num(self):
         n=int(input("enter the numbers are there"))
