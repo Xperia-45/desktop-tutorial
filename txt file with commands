@@ -1,0 +1,7 @@
+input = taking input 
+syntax : int(input("enter the words")
+print = print the statement
+syntax : print(" words ")
+types of variables 
+       1 = str = alphabets
+       2 = boolean = true ,false
