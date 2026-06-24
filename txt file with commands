@@ -5,3 +5,11 @@ syntax : print(" words ")
 types of variables 
        1 = str = alphabets
        2 = boolean = true ,false
+loops 
+if ,elif,else
+syntax : if ("condition")
+elif ("condition")
+else ("condition")
+dictoniers {
+"1" = "one":
+"2" = " two":
