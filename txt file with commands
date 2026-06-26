@@ -13,3 +13,11 @@ else ("condition")
 dictoniers {
 "1" = "one":
 "2" = " two":
+}
+class xyz:
+def __init__(xyz):
+syntax
+def(xyz):
+syntax
+xyz()
+xyz()
