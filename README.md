@@ -10,3 +10,4 @@ password = simple login
 marks = normal grading using lists
 school tc = school tc format using dictionerys
 9 = using random import in various cases
+oop programs= library manager,bank manager
