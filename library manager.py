@@ -11,6 +11,11 @@ class library:
         for i, book in enumerate(self.books, start=1):
             status = "Checked out" if book["checked_out"] else "Available"
             print(f'{i}. "{book["title"]}" by {book["author"]} — {status}')
+       def _find_book(self, title):
+        for book in self.books:
+            if book["title"].lower() == title.lower():
+                return book
+        return None   
  
               
        
