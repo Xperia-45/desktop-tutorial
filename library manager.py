@@ -26,6 +26,17 @@ class library:
             return
         book["checked_out"] = True
         print(f'You checked out "{book["title"]}". Enjoy!')
+               def return_book(self, title):
+        book = self._find_book(title)
+        if book is None:
+            print(f'No book found with the title "{title}".')
+            return
+        if not book["checked_out"]:
+            print(f'"{book["title"]}" was not checked out.')
+            return
+        book["checked_out"] = False
+        print(f'You returned "{book["title"]}". Thanks!')
+
 
               
  
