@@ -16,6 +16,18 @@ class library:
             if book["title"].lower() == title.lower():
                 return book
         return None   
+              def checkout_book(self, title):
+        book = self._find_book(title)
+        if book is None:
+            print(f'No book found with the title "{title}".')
+            return
+        if book["checked_out"]:
+            print(f'"{book["title"]}" is already checked out.')
+            return
+        book["checked_out"] = True
+        print(f'You checked out "{book["title"]}". Enjoy!')
+
+              
  
               
        
