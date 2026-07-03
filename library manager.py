@@ -46,7 +46,17 @@ class library:
         for book in matches:
             status = "Checked out" if book["checked_out"] else "Available"
             print(f'"{book["title"]}" by {book["author"]} — {status}')
+def main():
+    library = Library()
 
+    menu = """
+1. Add a book
+2. View all books
+3. Check out a book
+4. Return a book
+5. Search for a book
+6. Exit
+"""
 
 
               
