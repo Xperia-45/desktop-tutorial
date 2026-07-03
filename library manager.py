@@ -36,6 +36,17 @@ class library:
             return
         book["checked_out"] = False
         print(f'You returned "{book["title"]}". Thanks!')
+              def search_book(self, keyword):
+        keyword = keyword.lower()
+        matches = [b for b in self.books if keyword in b["title"].lower()]
+        if not matches:
+            print(f'No books matched "{keyword}".')
+            return
+        print(f'--- Search results for "{keyword}" ---')
+        for book in matches:
+            status = "Checked out" if book["checked_out"] else "Available"
+            print(f'"{book["title"]}" by {book["author"]} — {status}')
+
 
 
               
