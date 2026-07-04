@@ -57,7 +57,36 @@ def main():
 5. Search for a book
 6. Exit
 """
+print("=== Welcome to Library Book Tracker ===")
 
+    while True:
+        print(menu)
+        choice = input("Choose an option (1-6): ").strip()
+
+        if choice == "1":
+            title = input("Book title: ").strip()
+            author = input("Author: ").strip()
+            library.add_book(title, author)
+        elif choice == "2":
+            library.view_books()
+        elif choice == "3":
+            title = input("Title to check out: ").strip()
+            library.checkout_book(title)
+        elif choice == "4":
+            title = input("Title to return: ").strip()
+            library.return_book(title)
+        elif choice == "5":
+            keyword = input("Search keyword: ").strip()
+            library.search_book(keyword)
+        elif choice == "6":
+            print("Goodbye! Happy reading.")
+            break
+        else:
+            print("Invalid choice. Please enter a number from 1 to 6.")
+
+
+if __name__ == "__main__":
+    main()
 
               
  
