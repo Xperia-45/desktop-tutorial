@@ -4,12 +4,12 @@
 class Library:
     def __init__(self):
         self.books = []  
-
+#add book
     def add_book(self, title, author):
         book = {"title": title, "author": author, "checked_out": False}
         self.books.append(book)
         print(f'Added "{title}" by {author}.')
-
+#view book
     def view_books(self):
         if not self.books:
             print("The library has no books yet.")
@@ -18,13 +18,13 @@ class Library:
         for i, book in enumerate(self.books, start=1):
             status = "Checked out" if book["checked_out"] else "Available"
             print(f'{i}. "{book["title"]}" by {book["author"]} — {status}')
-
+#find book
     def _find_book(self, title):
         for book in self.books:
             if book["title"].lower() == title.lower():
                 return book
         return None
-
+#checkout book
     def checkout_book(self, title):
         book = self._find_book(title)
         if book is None:
@@ -35,7 +35,7 @@ class Library:
             return
         book["checked_out"] = True
         print(f'You checked out "{book["title"]}". Enjoy!')
-
+#return book
     def return_book(self, title):
         book = self._find_book(title)
         if book is None:
@@ -46,7 +46,7 @@ class Library:
             return
         book["checked_out"] = False
         print(f'You returned "{book["title"]}". Thanks!')
-
+#search book
     def search_book(self, keyword):
         keyword = keyword.lower()
         matches = [b for b in self.books if keyword in b["title"].lower()]
@@ -72,7 +72,7 @@ def main():
 """
 
     print("=== Welcome to Library Book Tracker ===")
-
+#for executing user based input
     while True:
         print(menu)
         choice = input("Choose an option (1-6): ").strip()
