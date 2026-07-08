@@ -14,3 +14,5 @@ class to_do_list:
             status = "Completed" if task["completed"] else "Pending"
             print(f'{i}. {task["task"]} — {status}')
             print("keep on going")
+    def delete_tasks(self):
+        
