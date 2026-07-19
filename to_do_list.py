@@ -15,4 +15,6 @@ class to_do_list:
             print(f'{i}. {task["task"]} — {status}')
             print("keep on going")
     def delete_tasks(self):
+        self.tasks.remove({"task": task, "completed": False})
+        print(F'{i}. {task["task"]} - {status}')
         
