@@ -17,4 +17,4 @@ class to_do_list:
     def delete_tasks(self):
         self.tasks.remove({"task": task, "completed": False})
         print(F'{i}. {task["task"]} - {status}')
-        
+        print("tast is deleted ")
