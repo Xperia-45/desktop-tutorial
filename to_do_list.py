@@ -18,3 +18,4 @@ class to_do_list:
         self.tasks.remove({"task": task, "completed": False})
         print(F'{i}. {task["task"]} - {status}')
         print("tast is deleted ")
+    def veiw in list 
